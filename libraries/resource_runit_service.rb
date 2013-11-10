@@ -54,8 +54,8 @@ class Chef
         @running = false
         @default_logger = false
         @restart_on_update = true
-        @run_template_name = @service_name
-        @log_template_name = @service_name
+        @run_template_name = nil
+        @log_template_name = nil
         @check_script_template_name = @service_name
         @finish_script_template_name = @service_name
         @control_template_names = {}
